@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+table tr td {
+	float : left;
+}    
+@media (max-width: 768px){
+.mailbox-messages table tr td{
+	display:flex;
+}
+}

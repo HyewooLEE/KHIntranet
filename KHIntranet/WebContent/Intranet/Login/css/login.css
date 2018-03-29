@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.animated-checkbox input[type="checkbox"]:checked + .label-text:before {
+  color: #007bff;
+
+}
+
+.form-control:focus {
+
+  border-color: #007bff;
+
+}
+
+.btn-primary:hover {
+  background-color: #00C8FF;
+  border-color: #00C8FF;
+  color: #fff;
+}
+
+
+ .login-content .login-box.flipped {
+  min-width:900px;
+  min-height: 650px;
+
+}
+
+.material-half-bg {
+background-color: #007bff;
+
+
+}
+
+.material-half-bg .cover {
+    background-color: #FFF;
+
+}
+
+.animated-radio-button input[type="radio"]:checked + .label-text:before {
+
+  color: #007bff;
+}
+
+
+@media (max-width: 768px){
+.login-content .login-box.flipped {
+    min-width: 350px;
+    min-height: 1100px;
+}
+}

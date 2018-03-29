@@ -1,0 +1,4 @@
+@charset "UTF-8";
+body > main > div.row > div > div > div > div > div.page-content > table > tbody > tr:nth-child(1) > td {
+	0px solid #dee2e6;
+}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+#searchBtn{
+	border-radius:0px 4px 4px 0px;
+}
+#searchInput{
+	border-radius:4px 0px 0px 4px;
+}
+#tono_box{
+	display:hidden;
+}
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 꾸미기(레이아웃)에 대한 선언 -->
+<decorators defaultdir="/view">
+<!-- notice에 대한 요청이 들어오면 적용시키는 레이아웃 선언 -->
+<!-- page=" decorator.jsp 파일이 있는 경로 입력 " -->
+<decorator name="nav" page="/WEB-INF/view/nav.jsp">
+<!-- notice폴더가 WEB-INF/view/폴더 안에 있지만 pattern을 입력할땐 /notice/만 입력해도 가능 -->
+<pattern>/*.do</pattern>
+<pattern>/*.jsp</pattern>
+</decorator>
+<!-- decoration에서 제외되는 요청을 선언 -->
+<excludes>
+<pattern>/login.do</pattern>
+<pattern>/tologin.do</pattern>
+<pattern>/index.do</pattern>
+</excludes>
+</decorators>
